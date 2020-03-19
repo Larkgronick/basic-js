@@ -37,7 +37,6 @@ describe('Transform array', () => {
                 assert.deepStrictEqual((transform(randArr)), randArr);
             }
         });
-
         it.optional('action flags work properly', () => {
             for(let i = 0; i < 50; i += 1) {
                 const { input, output } = createSample(i);
